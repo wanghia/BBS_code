@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+body, input, button, select, textarea 
+{
+	font: 12px/1.5 Tahoma,'Microsoft Yahei','Simsun';
+	font-family: Tahoma, 'Microsoft Yahei', Simsun;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #444;
+}
+a
+{
+	color:black;
+	text-decoration:none;
+}
+.main
+{
+	border:1px solid blue;
+	width:1082px;
+	height:auto;
+	margin-left:140px;
+	margin-right:140px;
+}
+.head,.middle,.tail,.tail .regist
+{
+	border:1px solid red;
+}
+.head
+{
+	width:100%;
+	height:140px;
+}
+.left
+{
+	border:1px solid red;
+	width:300px;
+	height:410px;
+	margin-top:25px;
+	margin-left:23px;
+	float:left;
+}
+.pic
+{
+	margin-left:30px;
+	margin-top:17px;
+	width:170px;
+	height:170px;
+	float:left;
+	border:1px solid #BFBFBD;
+}
+.upload
+{
+	margin-left:20px;
+	margin-top:18px;
+	float:left;
+	//border:1px solid black;
+	width:150px;
+	height:50px;
+}
+.upload_touxiang
+{
+	//border:1px solid black;
+	width:150px;
+	height:23px;
+}
+.select_pic_havedone
+{
+	margin-top:12px;
+	margin-left:10px;
+	border:1px solid red;
+	width:250px;
+	height:40px;
+}
+.middle
+{
+	border:1px solid #A20505;
+	width:1081px;
+	height:30px;
+	background:#BD0000;
+}
+.middle span
+{
+	font-size:16px;
+	margin-left:13px;
+	line-height:4px;
+	color:white;
+	font-weight:bold;
+}
+.middle li
+{
+	list-style:none;
+	float:left;
+}
+.tail
+{
+	border:1px solid #A20505;
+	width:100%;
+	height:468px;	
+	float:left;
+}
+ .regist         /*注册的框架*/
+{
+	margin:35px 12px 23px 12px;
+	width:700px;
+	height:410px;
+	float:left;
+}
+.tail .name
+{
+	margin-left:200px;
+}
+.tail .name .oldpassword
+{
+	//border:1px solid red;
+}
+.tail .newpassword
+{
+	margin-left:202px;
+}
+.tail .config
+{
+	margin-left:186px;
+}
+.tail .sex
+{
+	margin-left:217px;
+}
+.tail .email
+{
+	margin-left:217px;
+}
+.tail .submit
+{
+	//border:1px solid red;
+	width:50%;
+	height:40px;
+	margin-top:23px;
+	margin-left:270px;
+}
+.submit_btn
+{
+	width:63px;
+	height:39px;
+	font-size:15px;
+	text-decoration:bold;
+}
+.tail .name,.tail .newpassword,.tail .config,.tail .sex,.tail .email
+{
+	line-height:29px;
+	widht:80%;
+	height:30px;
+	margin-top:6px;
+	font-size:15px;
+	//border:1px solid blue;
+}

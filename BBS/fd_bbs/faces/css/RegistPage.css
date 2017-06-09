@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+body, input, button, select, textarea 
+{
+	font: 12px/1.5 Tahoma,'Microsoft Yahei','Simsun';
+	font-family: Tahoma, 'Microsoft Yahei', Simsun;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #444;
+}
+.main
+{
+	border:1px solid red;
+	width:1082;
+	height:auto;
+	margin-left:140px;
+	margin-right:140px;
+}
+.head,.middle,.tail
+{
+	border:1px solid red;
+}
+.head
+{
+	width:100%;
+	height:140px;
+}
+.middle
+{
+	width:100%;
+	height:30px;
+	background:#BD0000;
+}
+.middle li
+{
+	float:left;	
+	line-height:4px;
+	margin-left:23px;
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+}
+.middle a
+{
+	color:white;
+	text-decoration:none;
+}
+.tail
+{
+	width:auto;
+	width:100%;
+}
+.tail .regist         /*注册的框架*/
+{
+	margin:56px 5% 23px 5%;
+	width:90%;
+	height:auto;
+}
+.tail .name
+{
+	margin-left:300px;
+}
+.tail .name .user
+{
+	//border:1px solid red;
+}
+.tail .password
+{
+	margin-left:317px;
+}
+.tail .config
+{
+	margin-left:286px;
+}
+.tail .sex
+{
+	margin-left:317px;
+}
+.tail .email
+{
+	margin-left:317px;
+}
+.tail .submit
+{
+	//border:1px solid red;
+	width:50%;
+	height:40px;
+	margin-top:23px;
+	margin-left:370px;
+}
+.submit_btn
+{
+	width:63px;
+	height:39px;
+	font-size:15px;
+	text-decoration:bold;
+}
+.tail .name,.tail .password,.tail .config,.tail .sex,.tail .email
+{
+	line-height:29px;
+	widht:80%;
+	height:30px;
+	margin-top:2px;
+	font-size:15px;
+	//border:1px solid blue;
+}
